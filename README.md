@@ -113,3 +113,13 @@ contract POC is Test {
 
 The `_sender != tx.origin` check is correct, even in the case that the call came via `onApprove()`, so the additional logic can be removed.
 
+
+
+## Discussion
+
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/tokamak-network/tokamak-thanos/pull/275
+
+
